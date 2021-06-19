@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1624113053",layout:"default",error:a,state:{"page-list":{pageList:a,pageCount:0},"page-meta":{pageMeta:a}},serverRendered:true,routePath:"\u002Fdonate",config:{content:{dbHash:"51194e85"}}}}(null));
