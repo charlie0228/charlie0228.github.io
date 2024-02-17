@@ -1,1 +1,0 @@
-import{_ as o}from"./_plugin-vue_export-helper.x3n3nnut.js";import{U as r,$ as s,o as t}from"./entry.WbkLwLdk.js";const c={},n={class:"h-screen w-100"};function a(e,_){return t(),r("div",n,[s(e.$slots,"default")])}const d=o(c,[["render",a]]);export{d as default};
