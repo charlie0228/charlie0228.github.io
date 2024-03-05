@@ -1,0 +1,1 @@
+import{_ as o}from"./_plugin-vue_export-helper.x3n3nnut.js";import{o as t,m as n,a1 as r}from"./entry.SC3u8evS.js";const s={},c={class:"text-warning"};function a(e,d){return t(),n("code",c,[r(e.$slots,"default",{},void 0,!0)])}const l=o(s,[["render",a],["__scopeId","data-v-8b16c165"]]);export{l as default};
