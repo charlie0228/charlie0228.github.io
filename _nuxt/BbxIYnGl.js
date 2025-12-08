@@ -1,0 +1,1 @@
+import{_ as o}from"./DlAUqK2U.js";import{o as t,m as n,a3 as r}from"./Cfip7NNR.js";const s={},c={class:"text-warning"};function a(e,d){return t(),n("code",c,[r(e.$slots,"default",{},void 0,!0)])}const l=o(s,[["render",a],["__scopeId","data-v-8b16c165"]]);export{l as default};
