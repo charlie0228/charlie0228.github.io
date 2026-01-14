@@ -1,0 +1,1 @@
+[{"_path":"/post/20251208-nuxt3-fetch-vs-axios-module-scope","_draft":false,"title":"Nuxt3 中 $fetch 與 axios 在模組頂層的差異","description":"最近在重構公司專案的 API 層時，遇到了一個有趣的問題：原本用 axios 可以正常運作的程式碼，改用 Nuxt3 的 $fetch 後卻報錯了。這個問題讓我深入研究了 $fetch 和 axios 在底層實作上的差異。","tags":"nuxt, nuxt3, vue, vue3, $fetch, axios, ofetch","createdAt":"2025-12-08T02:46:31.000Z","updatedAt":"2026-01-14T03:06:11.000Z"}]
