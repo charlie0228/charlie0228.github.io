@@ -1,0 +1,1 @@
+[{"_path":"/post/20260120-lucene-parser-vs-regex-validation","_draft":false,"title":"從 100 行 Regex 到 Lucene Parser：複雜驗證邏輯的重構之路","description":"最近在維護一個關鍵字搜尋功能時，遇到了一個經典的工程問題：手寫的 Regex 驗證邏輯越來越難維護，每次修 bug 都像在拆炸彈。","tags":"lucene, parser, regex, validation, typescript, javascript, ast, peg.js","createdAt":"2026-01-20T04:52:18.000Z","updatedAt":"2026-01-20T04:52:18.000Z"}]
