@@ -1,0 +1,1 @@
+import{_ as o}from"./DlAUqK2U.js";import{o as n,c as s,G as t}from"./1BXQ_Er9.js";const c={},r={class:"inline-code"};function d(e,a){return n(),s("code",r,[t(e.$slots,"default",{},void 0,!0)])}const l=o(c,[["render",d],["__scopeId","data-v-d8fad533"]]);export{l as default};

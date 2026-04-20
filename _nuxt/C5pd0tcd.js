@@ -1,0 +1,1 @@
+import{_ as a}from"./DlAUqK2U.js";import{o as t,c as o,a as s,G as r}from"./1BXQ_Er9.js";const c={},n={class:"table-wrap"};function l(e,d){return t(),o("div",n,[s("table",null,[r(e.$slots,"default",{},void 0,!0)])])}const i=a(c,[["render",l],["__scopeId","data-v-5f90eac5"]]);export{i as default};

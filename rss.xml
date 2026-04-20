@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>藥不藥來當工程師</title>
+        <link>https://charlie0228.github.io</link>
+        <description>一個不務正業的藥師，誤打誤撞來當了前端工程師。斜槓工程師的人生！</description>
+        <lastBuildDate>Mon, 20 Apr 2026 04:03:50 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>zh-TW</language>
+        <copyright>© 2026 藥不藥來當工程師</copyright>
+        <item>
+            <title><![CDATA[Nuxt 3 Layout 與 Page 的高度職責分離：解決多餘 scrollbar 問題]]></title>
+            <link>https://charlie0228.github.io/post/20260325-nuxt3-layout-height-management</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260325-nuxt3-layout-height-management</guid>
+            <pubDate>Wed, 25 Mar 2026 08:00:59 GMT</pubDate>
+            <description><![CDATA[在 Nuxt 3 的 SPA 專案中，Layout 與 Page 之間的高度管理是個容易踩坑的地方。本文記錄一個常見問題：各個 Page 各自用 h-screen 控制高度，導致出現多餘的外層 scrollbar，以及修正過程中學到的 CSS 定位觀念。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[為什麼 .reverse() 讓瀏覽器凍結？Vue Reactivity 與 Array In-Place Mutation 的陷阱]]></title>
+            <link>https://charlie0228.github.io/post/20260318-vue-reactivity-array-reverse-infinite-loop</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260318-vue-reactivity-array-reverse-infinite-loop</guid>
+            <pubDate>Wed, 18 Mar 2026 15:26:42 GMT</pubDate>
+            <description><![CDATA[在一個 Vue 3 專案中，我把一行 .sort() 改成 .reverse()，結果瀏覽器直接凍結。這篇文章記錄這個問題的根本原因：在 reactive context 中對陣列做 in-place mutation 可能觸發無限迴圈，以及為什麼 ES2023 的 toReversed() / toSorted() 是更安全的選擇。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[用 invisible absolute 解決 Chart.js 在隱藏 Tab 中匯出空白圖片的問題]]></title>
+            <link>https://charlie0228.github.io/post/20260305-invisible-absolute-chart-export-pattern</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260305-invisible-absolute-chart-export-pattern</guid>
+            <pubDate>Thu, 05 Mar 2026 15:22:58 GMT</pubDate>
+            <description><![CDATA[最近在做一個多 Tab 頁面的「下載圖表」功能時，踩到一個 Chart.js 的經典坑：當圖表所在的 Tab 被隱藏時，匯出的圖片是空白的。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[從 100 行 Regex 到 Lucene Parser：複雜驗證邏輯的重構之路]]></title>
+            <link>https://charlie0228.github.io/post/20260120-lucene-parser-vs-regex-validation</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260120-lucene-parser-vs-regex-validation</guid>
+            <pubDate>Tue, 20 Jan 2026 04:52:18 GMT</pubDate>
+            <description><![CDATA[最近在維護一個關鍵字搜尋功能時，遇到了一個經典的工程問題：手寫的 Regex 驗證邏輯越來越難維護，每次修 bug 都像在拆炸彈。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[使用 Observer Pattern 重構複雜的資料上傳流程 - 以 PrimaryAPI 與 BackupService 整合為例]]></title>
+            <link>https://charlie0228.github.io/post/20260112-refactoring-data-flow-with-observer-pattern-typescript</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260112-refactoring-data-flow-with-observer-pattern-typescript</guid>
+            <pubDate>Mon, 12 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[在後端開發中，我們常遇到需求不斷疊加，導致原本單純的類別（Class）變成了「上帝類別（God Class）」，職責混雜且難以測試。最近我在處理一個將資料上傳到 PrimaryAPI（主要資料平台）與 BackupService（備份服務）的功能時，就遇到了「堆疊式複雜度」的問題。本文將分享如何利用 Observer Pattern（觀察者模式）1 與 Mediator Pattern（中介者模式）2 來優化架構，達成高內聚低耦合的設計。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[在 Cloud Run 被 OOM 教訓的一課：用 Stream 把記憶體從 O(N) 降到 O(1)]]></title>
+            <link>https://charlie0228.github.io/post/20260106-nodejs-oom-stream-optimization</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260106-nodejs-oom-stream-optimization</guid>
+            <pubDate>Tue, 06 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[2026 年剛開始，我就收到了一份「大禮」。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[TypeScript 5.5+ Inferred Type Predicates：告別手動標註 `item is string`]]></title>
+            <link>https://charlie0228.github.io/post/20251218-typescript-inferred-type-predicates</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20251218-typescript-inferred-type-predicates</guid>
+            <pubDate>Thu, 18 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[在開發 Vue 組件時，我遇到了一個有趣的類型推斷問題，這讓我深入研究了 TypeScript 5.5 引入的 Inferred Type Predicates 功能。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Nuxt3 中 $fetch 與 axios 在模組頂層的差異]]></title>
+            <link>https://charlie0228.github.io/post/20251208-nuxt3-fetch-vs-axios-module-scope</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20251208-nuxt3-fetch-vs-axios-module-scope</guid>
+            <pubDate>Mon, 08 Dec 2025 02:46:31 GMT</pubDate>
+            <description><![CDATA[最近在重構公司專案的 API 層時，遇到了一個有趣的問題：原本用 axios 可以正常運作的程式碼，改用 Nuxt3 的 $fetch 後卻報錯了。這個問題讓我深入研究了 $fetch 和 axios 在底層實作上的差異。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Import Alias：~ vs @ 在不同框架的慣例]]></title>
+            <link>https://charlie0228.github.io/post/20251205-import-alias-tilde-vs-at-sign</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20251205-import-alias-tilde-vs-at-sign</guid>
+            <pubDate>Fri, 05 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[最近在重構專案時，發現自己一直習慣用 @ 來做 import alias，但 Nuxt3 的官方文件卻都用 ~。這讓我開始好奇：這兩個符號到底有什麼差異？各個框架的慣例又是什麼？]]></description>
+        </item>
+        <item>
+            <title><![CDATA[旅遊規劃網站電腦版居然是 Vue dev mode！？]]></title>
+            <link>https://charlie0228.github.io/post/20250122-chictrip-desktop-version-is-vue-dev-version</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20250122-chictrip-desktop-version-is-vue-dev-version</guid>
+            <pubDate>Wed, 22 Jan 2025 09:36:23 GMT</pubDate>
+            <description><![CDATA[2025 一轉眼也快過了 1/12，趁著過年之前想說來試用看看去年各種 KOL 業配的網站，不過因為我還是習慣使用電腦，所以並沒有下載 APP，而是先使用電腦版試用看看，如果好用再來下載 APP，沒想到偶然發現了他們網站居然還是 development mode。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Nuxt3 Nested Routes 與 active class]]></title>
+            <link>https://charlie0228.github.io/post/20241230-nuxt-3-nested-routes</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20241230-nuxt-3-nested-routes</guid>
+            <pubDate>Mon, 30 Dec 2024 10:16:55 GMT</pubDate>
+            <description><![CDATA[今天在處理公司專案的時候，遇到一個 Nuxt3 nested routes 小問題，剛好把它記錄下來，就當作這個 blog 2024 年最後一篇文章了 (遮臉)。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[參與高股息 ETF 除息前行情]]></title>
+            <link>https://charlie0228.github.io/post/20240311-participating-in-the-pre-dividend-market-for-high-dividend-yield-etfs</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20240311-participating-in-the-pre-dividend-market-for-high-dividend-yield-etfs</guid>
+            <pubDate>Mon, 11 Mar 2024 10:34:33 GMT</pubDate>
+            <description><![CDATA[台灣人特愛配股配息，這幾年又大量出現高股息 ETF，從年年配，到半年配，季季配，現在連月月配的商品如雨後春筍般，瘋狂冒出。
+目前正在募集的 00940 就是屬於月月配，聽說今天第一天募集，就已經達標了，這是何等的瘋狂啊！]]></description>
+        </item>
+        <item>
+            <title><![CDATA[macOS 合併 Google Drive 壓縮下載]]></title>
+            <link>https://charlie0228.github.io/post/20240215-google-drive-download-part-migrate-in-macos</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20240215-google-drive-download-part-migrate-in-macos</guid>
+            <pubDate>Thu, 15 Feb 2024 10:37:14 GMT</pubDate>
+            <description><![CDATA[前幾天從朋友分享的 Google Drive 連結，下載一大包檔案，因為檔案很大，超過 2GB，所以 Google 預設幫我分割檔案。因為之前都用 Windows 電腦，所以也沒發現什麼不妥，就很直覺的把檔案下載下來之後準備解壓縮。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2024 新年新希望 重啟部落格]]></title>
+            <link>https://charlie0228.github.io/post/20240206-restart-blog</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20240206-restart-blog</guid>
+            <pubDate>Tue, 06 Feb 2024 10:10:56 GMT</pubDate>
+            <description><![CDATA[距離上一篇文章，居然已經是三年前的東西了，沒想到當初希望好好開始寫內容，不管是程式學習相關，還是投資相關，結果居然只寫了兩篇，真是有夠沒毅力......。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[台股上市上櫃處置股 Google 行事曆 (每日更新)]]></title>
+            <link>https://charlie0228.github.io/post/20210619-tw-stock-punish-calendar</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20210619-tw-stock-punish-calendar</guid>
+            <pubDate>Sat, 19 Jun 2021 12:56:24 GMT</pubDate>
+            <description><![CDATA[台股上市上櫃處置股 Google 行事曆，可直接匯入 Google Calendar 或是任何可以讀取 .ics 的行事曆軟體，每日自動更新資料]]></description>
+        </item>
+        <item>
+            <title><![CDATA[利用 Nuxt.js 與 nuxt/content 搭建部落格 (1)]]></title>
+            <link>https://charlie0228.github.io/post/20201026-build-your-blog-with-nuxt-and-nuxt-content-1</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20201026-build-your-blog-with-nuxt-and-nuxt-content-1</guid>
+            <pubDate>Mon, 26 Oct 2020 14:36:12 GMT</pubDate>
+            <description><![CDATA[利用 Nuxt.js 與 nuxt/content 搭建部落格 (1)]]></description>
+        </item>
+    </channel>
+</rss>
