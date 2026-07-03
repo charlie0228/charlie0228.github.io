@@ -25,6 +25,9 @@
         <loc>https://charlie0228.github.io/page/2</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/page/3</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/post/20201026-build-your-blog-with-nuxt-and-nuxt-content-1</loc>
         <lastmod>2024-03-04T07:46:02Z</lastmod>
     </url>
@@ -89,6 +92,50 @@
         <lastmod>2026-03-25T08:00:59Z</lastmod>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/post/20260420-blog-design-vocabulary</loc>
+        <lastmod>2026-07-03T09:42:39Z</lastmod>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/post/20260420-blog-redesign-engineering-decisions</loc>
+        <lastmod>2026-07-03T09:42:39Z</lastmod>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/post/20260420-nuxt-payload-extraction-chinese-url-prerender</loc>
+        <lastmod>2026-07-03T09:42:39Z</lastmod>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/post/20260429-llm-unicode-escape</loc>
+        <lastmod>2026-07-03T09:42:54Z</lastmod>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/post/20260611-csv-injection-threat-model</loc>
+        <lastmod>2026-07-03T09:43:06Z</lastmod>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/post/20260630-vue-self-managed-composable-singleton</loc>
+        <lastmod>2026-07-03T09:43:17Z</lastmod>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/post/20260703-ai-code-review-vibe-coded-project</loc>
+        <lastmod>2026-07-03T09:44:39Z</lastmod>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/post/20260703-idempotency-at-least-once-frontend-view</loc>
+        <lastmod>2026-07-03T09:44:39Z</lastmod>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/post/20260703-primevue-frozen-column-sticky-offset</loc>
+        <lastmod>2026-07-03T09:44:49Z</lastmod>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/post/20260703-sqlite-turso-single-writer-wal-batch</loc>
+        <lastmod>2026-07-03T09:44:39Z</lastmod>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/post/20260703-turso-blackhole-timeout-abort-postmortem</loc>
+        <lastmod>2026-07-03T09:44:39Z</lastmod>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/$fetch</loc>
     </url>
     <url>
@@ -110,6 +157,12 @@
         <loc>https://charlie0228.github.io/tag/00940</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/abortcontroller</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/ai</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/array</loc>
     </url>
     <url>
@@ -128,13 +181,34 @@
         <loc>https://charlie0228.github.io/tag/bigquery</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/bug</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/canvas</loc>
     </url>
     <url>
         <loc>https://charlie0228.github.io/tag/cloud-run</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/code-review</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/composable</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/css</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/csv-injection</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/database</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/debugging</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/design</loc>
     </url>
     <url>
         <loc>https://charlie0228.github.io/tag/design-pattern</loc>
@@ -143,13 +217,25 @@
         <loc>https://charlie0228.github.io/tag/display-none</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/distributed-systems</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/editorial</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/es2023</loc>
     </url>
     <url>
         <loc>https://charlie0228.github.io/tag/etf</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/fetch</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/finlab</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/github-actions</loc>
     </url>
     <url>
         <loc>https://charlie0228.github.io/tag/google</loc>
@@ -161,6 +247,15 @@
         <loc>https://charlie0228.github.io/tag/google-drive</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/hrana</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/http</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/idempotency</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/jamstack</loc>
     </url>
     <url>
@@ -170,13 +265,28 @@
         <loc>https://charlie0228.github.io/tag/layout</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/libsql</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/llm</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/lucene</loc>
     </url>
     <url>
         <loc>https://charlie0228.github.io/tag/mac</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/magazine</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/memory-leak</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/migration</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/nitro</loc>
     </url>
     <url>
         <loc>https://charlie0228.github.io/tag/nodejs</loc>
@@ -206,7 +316,22 @@
         <loc>https://charlie0228.github.io/tag/parser</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/payload-extraction</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/pinia</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/pnpm</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/postmortem</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/prerender</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/primevue</loc>
     </url>
     <url>
         <loc>https://charlie0228.github.io/tag/python</loc>
@@ -227,6 +352,15 @@
         <loc>https://charlie0228.github.io/tag/scrollable-overflow</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/security</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/sqlite</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/ssg</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/stock</loc>
     </url>
     <url>
@@ -239,6 +373,9 @@
         <loc>https://charlie0228.github.io/tag/tosorted</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/turso</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/type-predicates</loc>
     </url>
     <url>
@@ -248,10 +385,25 @@
         <loc>https://charlie0228.github.io/tag/typescript</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/typography</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/ui</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/unicode</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/unocss</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/ux</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/validation</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/vibe-coding</loc>
     </url>
     <url>
         <loc>https://charlie0228.github.io/tag/visibility</loc>
@@ -269,10 +421,22 @@
         <loc>https://charlie0228.github.io/tag/vue3</loc>
     </url>
     <url>
+        <loc>https://charlie0228.github.io/tag/vuetify</loc>
+    </url>
+    <url>
         <loc>https://charlie0228.github.io/tag/前端開發</loc>
     </url>
     <url>
         <loc>https://charlie0228.github.io/tag/台股</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/威脅建模</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/工程策略</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/後端開發</loc>
     </url>
     <url>
         <loc>https://charlie0228.github.io/tag/技術筆記</loc>
@@ -282,6 +446,18 @@
     </url>
     <url>
         <loc>https://charlie0228.github.io/tag/日本</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/系統設計</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/設計筆記</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/資料庫</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/資訊安全</loc>
     </url>
     <url>
         <loc>https://charlie0228.github.io/tag/閒聊</loc>
@@ -295,5 +471,17 @@
     <url>
         <loc>https://charlie0228.github.io/tag/高股息-etf</loc>
     </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/nuxt/page/2</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/ux/page/2</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/vue/page/2</loc>
+    </url>
+    <url>
+        <loc>https://charlie0228.github.io/tag/技術筆記/page/2</loc>
+    </url>
 </urlset>
-<!-- XML Sitemap generated by @nuxtjs/sitemap v5.3.5 at 2026-07-03T07:17:30.014Z -->
+<!-- XML Sitemap generated by @nuxtjs/sitemap v5.3.5 at 2026-07-03T09:46:08.093Z -->

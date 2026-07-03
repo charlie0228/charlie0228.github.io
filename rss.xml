@@ -4,11 +4,88 @@
         <title>藥不藥來當工程師</title>
         <link>https://charlie0228.github.io</link>
         <description>一個不務正業的藥師，誤打誤撞來當了前端工程師。斜槓工程師的人生！</description>
-        <lastBuildDate>Fri, 03 Jul 2026 07:17:17 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jul 2026 09:45:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-TW</language>
         <copyright>© 2026 藥不藥來當工程師</copyright>
+        <item>
+            <title><![CDATA[PrimeVue DataTable Frozen Column 錯位之謎：兩層 Root Cause，與一個 ResizeObserver Directive 解法]]></title>
+            <link>https://charlie0228.github.io/post/20260703-primevue-frozen-column-sticky-offset</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260703-primevue-frozen-column-sticky-offset</guid>
+            <pubDate>Fri, 03 Jul 2026 07:46:00 GMT</pubDate>
+            <description><![CDATA[專案裡的 PrimeVue DataTable 用了 frozen column（凍結欄），QA 回報一個詭異的現象：表格內容變多、垂直 scrollbar 出現的那一刻，凍結欄的位置就錯了——欄與欄之間出現縫隙或互相重疊，橫向捲動時整個版面破掉。更麻煩的是它「時好時壞」，看起來像隨機發生。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[exactly-once 是謊言：前端工程師終於學會「冪等」]]></title>
+            <link>https://charlie0228.github.io/post/20260703-idempotency-at-least-once-frontend-view</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260703-idempotency-at-least-once-frontend-view</guid>
+            <pubDate>Fri, 03 Jul 2026 04:04:00 GMT</pubDate>
+            <description><![CDATA[寫了很多年前端，「冪等（idempotent）」這個詞我當然看過——HTTP 規範裡有、面試題裡有。但我從來沒有意識到它：沒有在設計系統時把它當成一個要主動守住的性質。直到我的爬蟲系統經歷了一連串資料庫事故（覆盤見系列第二篇），我才發現整個系統能自癒的地基就是這兩個字，而且回頭一看——前端其實天天在用它，只是沒人告訴我它的名字。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[前端工程師的 SQLite 震撼教育：全庫寫鎖、WAL、還有 batch 為什麼差四百倍]]></title>
+            <link>https://charlie0228.github.io/post/20260703-sqlite-turso-single-writer-wal-batch</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260703-sqlite-turso-single-writer-wal-batch</guid>
+            <pubDate>Fri, 03 Jul 2026 04:03:00 GMT</pubDate>
+            <description><![CDATA[我是前端工程師，對資料庫的心智模型來自 MySQL/Postgres 的常識：row-level lock、多個連線併發寫入、connection pool。直到我用 Turso（雲端版 SQLite / libSQL）跑了一個爬蟲系統、經歷了幾次事故（覆盤見系列上一篇），才發現這套常識在 SQLite 世界整組不適用。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[timeout 不等於 abort：一個資料庫 black-hole 殺死我爬蟲三次的覆盤]]></title>
+            <link>https://charlie0228.github.io/post/20260703-turso-blackhole-timeout-abort-postmortem</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260703-turso-blackhole-timeout-abort-postmortem</guid>
+            <pubDate>Fri, 03 Jul 2026 04:02:00 GMT</pubDate>
+            <description><![CDATA[前情提要：我有一個 vibe coding 出來的台股行情爬蟲，跑在 Fly.io 上、資料庫用 Turso（libSQL，SQLite over HTTP）。上一篇〈讓 AI 全面 review 我 vibe code 出來的 production 專案〉提到，我做過一次全面 review、修掉 20 個問題。兩週後，它還是在盤中死掉了。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[讓 AI 全面 review 我 vibe code 出來的 production 專案：20 個問題，其實只有兩種病]]></title>
+            <link>https://charlie0228.github.io/post/20260703-ai-code-review-vibe-coded-project</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260703-ai-code-review-vibe-coded-project</guid>
+            <pubDate>Fri, 03 Jul 2026 04:01:00 GMT</pubDate>
+            <description><![CDATA[我有一個 side project：一個台股行情資料的爬蟲系統，每天開盤自動啟動、收盤停止、晚上全量重抓，跑在雲端、透過 Telegram 推播訊號。它是我一路 vibe coding 迭代出來的——功能一直長，但我從來沒有系統性地檢視過整個 codebase。它能跑，而且跑了好幾個月。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[把 Vue Composable 重構成自己管理生命週期的 Lazy-loaded Singleton]]></title>
+            <link>https://charlie0228.github.io/post/20260630-vue-self-managed-composable-singleton</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260630-vue-self-managed-composable-singleton</guid>
+            <pubDate>Tue, 30 Jun 2026 08:12:00 GMT</pubDate>
+            <description><![CDATA[有一個共用的 composable，負責去後端撈一份「選項清單」（下拉選單用的 label）。它用 module scope 的 ref 做成 singleton + cache，設計上要外層 component 先呼叫 fetch() 把資料載進來，子 component 再直接讀 cache。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[CSV Injection：一個被低估的攻擊面，以及威脅模型如何決定它的嚴重度]]></title>
+            <link>https://charlie0228.github.io/post/20260611-csv-injection-threat-model</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260611-csv-injection-threat-model</guid>
+            <pubDate>Thu, 11 Jun 2026 07:27:00 GMT</pubDate>
+            <description><![CDATA[最近在重構一個「把分析資料匯出成 CSV / Excel」的功能時，自動化的 code review 工具在其中一段 CSV 產生邏輯標了一個 CWE-1236（CSV Injection）。第一眼看它像個可以延後處理的舊問題，但認真追下去，卻意外帶出一整套關於「injection 的本質」與「威脅模型如何決定優先級」的思考。這篇就記錄這段收穫——幾乎不談那個重構本身，只談那個被掀開的攻擊面。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[當 LLM 遇到 Unicode Escape — 為什麼 AI 寫不出 \u200B？]]></title>
+            <link>https://charlie0228.github.io/post/20260429-llm-unicode-escape</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260429-llm-unicode-escape</guid>
+            <pubDate>Wed, 29 Apr 2026 04:15:00 GMT</pubDate>
+            <description><![CDATA[你有沒有想過，請 LLM 幫你寫一個包含 \u200B 的 regex，它到底能不能寫對？]]></description>
+        </item>
+        <item>
+            <title><![CDATA[沉默的 500：一次 Nuxt 3.21 中文 URL prerender 的除錯紀錄]]></title>
+            <link>https://charlie0228.github.io/post/20260420-nuxt-payload-extraction-chinese-url-prerender</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260420-nuxt-payload-extraction-chinese-url-prerender</guid>
+            <pubDate>Mon, 20 Apr 2026 05:15:00 GMT</pubDate>
+            <description><![CDATA[前一篇結尾預告了這次改版唯一一個讓我卡住超過幾小時的 bug。獨立寫一篇，因為它的「形狀」比細節更值得記。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[為什麼不一次改完：一次 blog 大改版的三個工程決策]]></title>
+            <link>https://charlie0228.github.io/post/20260420-blog-redesign-engineering-decisions</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260420-blog-redesign-engineering-decisions</guid>
+            <pubDate>Mon, 20 Apr 2026 04:55:00 GMT</pubDate>
+            <description><![CDATA[上一篇寫完設計診斷，這篇換工程的角度。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[替 blog 找設計詞彙：從 Vuetify 到 Magazine 風的一次設計診斷]]></title>
+            <link>https://charlie0228.github.io/post/20260420-blog-design-vocabulary</link>
+            <guid isPermaLink="false">https://charlie0228.github.io/post/20260420-blog-design-vocabulary</guid>
+            <pubDate>Mon, 20 Apr 2026 04:50:00 GMT</pubDate>
+            <description><![CDATA[我這個 blog 改版想做很久了。每次打開自己的站，都覺得「不對」，但說不出哪裡不對。看別人的 blog ──Josh Comeau、Robin Rendle、那些做得好的個人站 ──就知道差在哪一個層級的東西，但翻不出名字。]]></description>
+        </item>
         <item>
             <title><![CDATA[Nuxt 3 Layout 與 Page 的高度職責分離：解決多餘 scrollbar 問題]]></title>
             <link>https://charlie0228.github.io/post/20260325-nuxt3-layout-height-management</link>
@@ -71,56 +148,6 @@
             <guid isPermaLink="false">https://charlie0228.github.io/post/20251205-import-alias-tilde-vs-at-sign</guid>
             <pubDate>Fri, 05 Dec 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[最近在重構專案時，發現自己一直習慣用 @ 來做 import alias，但 Nuxt3 的官方文件卻都用 ~。這讓我開始好奇：這兩個符號到底有什麼差異？各個框架的慣例又是什麼？]]></description>
-        </item>
-        <item>
-            <title><![CDATA[旅遊規劃網站電腦版居然是 Vue dev mode！？]]></title>
-            <link>https://charlie0228.github.io/post/20250122-chictrip-desktop-version-is-vue-dev-version</link>
-            <guid isPermaLink="false">https://charlie0228.github.io/post/20250122-chictrip-desktop-version-is-vue-dev-version</guid>
-            <pubDate>Wed, 22 Jan 2025 09:36:23 GMT</pubDate>
-            <description><![CDATA[2025 一轉眼也快過了 1/12，趁著過年之前想說來試用看看去年各種 KOL 業配的網站，不過因為我還是習慣使用電腦，所以並沒有下載 APP，而是先使用電腦版試用看看，如果好用再來下載 APP，沒想到偶然發現了他們網站居然還是 development mode。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Nuxt3 Nested Routes 與 active class]]></title>
-            <link>https://charlie0228.github.io/post/20241230-nuxt-3-nested-routes</link>
-            <guid isPermaLink="false">https://charlie0228.github.io/post/20241230-nuxt-3-nested-routes</guid>
-            <pubDate>Mon, 30 Dec 2024 10:16:55 GMT</pubDate>
-            <description><![CDATA[今天在處理公司專案的時候，遇到一個 Nuxt3 nested routes 小問題，剛好把它記錄下來，就當作這個 blog 2024 年最後一篇文章了 (遮臉)。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[參與高股息 ETF 除息前行情]]></title>
-            <link>https://charlie0228.github.io/post/20240311-participating-in-the-pre-dividend-market-for-high-dividend-yield-etfs</link>
-            <guid isPermaLink="false">https://charlie0228.github.io/post/20240311-participating-in-the-pre-dividend-market-for-high-dividend-yield-etfs</guid>
-            <pubDate>Mon, 11 Mar 2024 10:34:33 GMT</pubDate>
-            <description><![CDATA[台灣人特愛配股配息，這幾年又大量出現高股息 ETF，從年年配，到半年配，季季配，現在連月月配的商品如雨後春筍般，瘋狂冒出。
-目前正在募集的 00940 就是屬於月月配，聽說今天第一天募集，就已經達標了，這是何等的瘋狂啊！]]></description>
-        </item>
-        <item>
-            <title><![CDATA[macOS 合併 Google Drive 壓縮下載]]></title>
-            <link>https://charlie0228.github.io/post/20240215-google-drive-download-part-migrate-in-macos</link>
-            <guid isPermaLink="false">https://charlie0228.github.io/post/20240215-google-drive-download-part-migrate-in-macos</guid>
-            <pubDate>Thu, 15 Feb 2024 10:37:14 GMT</pubDate>
-            <description><![CDATA[前幾天從朋友分享的 Google Drive 連結，下載一大包檔案，因為檔案很大，超過 2GB，所以 Google 預設幫我分割檔案。因為之前都用 Windows 電腦，所以也沒發現什麼不妥，就很直覺的把檔案下載下來之後準備解壓縮。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[2024 新年新希望 重啟部落格]]></title>
-            <link>https://charlie0228.github.io/post/20240206-restart-blog</link>
-            <guid isPermaLink="false">https://charlie0228.github.io/post/20240206-restart-blog</guid>
-            <pubDate>Tue, 06 Feb 2024 10:10:56 GMT</pubDate>
-            <description><![CDATA[距離上一篇文章，居然已經是三年前的東西了，沒想到當初希望好好開始寫內容，不管是程式學習相關，還是投資相關，結果居然只寫了兩篇，真是有夠沒毅力......。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[台股上市上櫃處置股 Google 行事曆 (每日更新)]]></title>
-            <link>https://charlie0228.github.io/post/20210619-tw-stock-punish-calendar</link>
-            <guid isPermaLink="false">https://charlie0228.github.io/post/20210619-tw-stock-punish-calendar</guid>
-            <pubDate>Sat, 19 Jun 2021 12:56:24 GMT</pubDate>
-            <description><![CDATA[台股上市上櫃處置股 Google 行事曆，可直接匯入 Google Calendar 或是任何可以讀取 .ics 的行事曆軟體，每日自動更新資料]]></description>
-        </item>
-        <item>
-            <title><![CDATA[利用 Nuxt.js 與 nuxt/content 搭建部落格 (1)]]></title>
-            <link>https://charlie0228.github.io/post/20201026-build-your-blog-with-nuxt-and-nuxt-content-1</link>
-            <guid isPermaLink="false">https://charlie0228.github.io/post/20201026-build-your-blog-with-nuxt-and-nuxt-content-1</guid>
-            <pubDate>Mon, 26 Oct 2020 14:36:12 GMT</pubDate>
-            <description><![CDATA[利用 Nuxt.js 與 nuxt/content 搭建部落格 (1)]]></description>
         </item>
     </channel>
 </rss>

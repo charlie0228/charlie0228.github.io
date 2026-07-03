@@ -1,0 +1,1 @@
+[{"_path":"/post/20260429-llm-unicode-escape","_draft":false,"title":"當 LLM 遇到 Unicode Escape — 為什麼 AI 寫不出 \\u200B？","description":"你有沒有想過，請 LLM 幫你寫一個包含 \\u200B 的 regex，它到底能不能寫對？","tags":"unicode, javascript, regex, llm, 技術筆記","customCreatedAt":"2026-04-29T04:15:00.000Z","createdAt":"2026-07-03T09:42:54.000Z","updatedAt":"2026-07-03T09:42:54.000Z"}]
